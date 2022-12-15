@@ -1,0 +1,83 @@
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 47px;
+    margin: -46px 61px 0 -32px;
+    text-align: center;
+  }
+  
+  .key-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -20px;
+  }
+  .wide {
+    width: 171px;
+    border-radius: 10px;
+  }
+  .symbolBtn {
+    display: flex;
+    flex-direction: column;
+    margin: 128px 0px 0px -107px;
+  }
+  .top-btn {
+    padding: 0px;
+  }
+  .bottom {
+    position: absolute;
+    left: -36px;
+    top: 355px;
+    padding: 37px;
+    margin: 10px;
+  }
+  .big-btn {
+    font-size: 20px;
+  }
+  .org-btn {
+    background-color: #ef7d5d;
+    color: black;
+    font-weight: bold;
+  }
+  .white-btn {
+    background-color: rgba(166, 230, 123, 0.883);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .output-box {
+    margin-top: 40px;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    max-width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #a7af7c;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+  }
+  .cal-box {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .output {
+    color: rgba(39, 32, 32, 0.883);
+    font-size: medium;
+  }
+  .container {
+    margin-top: 0;
+    border: none;
+    min-width: 300px;
+    min-height: 400px;
+    padding: 40px 30px 30px ;
+    border-radius: 20px;
+    background-color: #333;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.5)
+  }
+  
